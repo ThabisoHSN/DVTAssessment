@@ -2,10 +2,10 @@ using System;
 
 namespace Assessment.Classes;
 
-public class Operation: Building
+public class Operation : Building
 {
 
-    public Operation(int buildingFloors, int elevators, int capacity) : base(buildingFloors, elevators,capacity)
+    public Operation(int buildingFloors, int elevators, int capacity) : base(buildingFloors, elevators, capacity)
     {
 
     }
@@ -22,30 +22,36 @@ public class Operation: Building
 
     public async Task PerformElevatorOperations()
     {
-        
-        int exit = 1;
-        await Task.Delay(0);
-
-        while (exit == 1)
+        try
         {
-            
-            int floor = prompts.GetValidInput("On which floor are you");
-            int passengers = prompts.GetValidInput("Enter number of passengers waiting");
-            
-            //Requests and performs the elevator operations
-            RequestForElevator(floor, passengers);
-            
-            exit = prompts.GetValidInput($"Who you like to continue\n 1 : Yes \n 2 : No");
+            int exit = 1;
+            await Task.Delay(0);
 
-            if(exit == 0){
-                break;
+            while (exit == 1)
+            {
+
+                int floor = prompts.GetValidInput("On which floor are you");
+                int passengers = prompts.GetValidInput("Enter number of passengers waiting");
+
+                //Requests and performs the elevator operations
+                RequestForElevator(floor, passengers);
+
+                exit = prompts.GetValidInput($"Who you like to continue\n 1 : Yes \n 2 : No");
+
+                if (exit == 0)
+                {
+                    break;
+                }
             }
+        }catch(Exception e){
+            Console.WriteLine("Error at PerformElevatorOperations " + e.Message);
         }
 
     }
 
-    public int RunOperations(){
-        return prompts.GetValidInput($"Select Option \n 1 : View Elevator Status\n 2 : Use Elevators\n 3 : Exit");        
+    public int RunOperations()
+    {
+        return prompts.GetValidInput($"Select Option \n 1 : View Elevator Status\n 2 : Use Elevators\n 3 : Exit");
     }
 
 }

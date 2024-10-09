@@ -1,0 +1,15 @@
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\bin\Debug\net8.0\Assessment.exe
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\bin\Debug\net8.0\Assessment.deps.json
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\bin\Debug\net8.0\Assessment.runtimeconfig.json
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\bin\Debug\net8.0\Assessment.dll
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\bin\Debug\net8.0\Assessment.pdb
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\obj\Debug\net8.0\Assessment.GeneratedMSBuildEditorConfig.editorconfig
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\obj\Debug\net8.0\Assessment.AssemblyInfoInputs.cache
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\obj\Debug\net8.0\Assessment.AssemblyInfo.cs
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\obj\Debug\net8.0\Assessment.csproj.CoreCompileInputs.cache
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\obj\Debug\net8.0\Assessment.sourcelink.json
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\obj\Debug\net8.0\Assessment.dll
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\obj\Debug\net8.0\refint\Assessment.dll
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\obj\Debug\net8.0\Assessment.pdb
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\obj\Debug\net8.0\Assessment.genruntimeconfig.cache
+d:\Koswell Inhouse Products\DVTAssessment\Assessment\obj\Debug\net8.0\ref\Assessment.dll
