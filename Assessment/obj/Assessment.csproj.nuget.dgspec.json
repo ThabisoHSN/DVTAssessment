@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Koswell Inhouse Products\\DVTAssessment\\Assessment\\Assessment.csproj": {}
+    "d:\\Koswell Inhouse Products\\DVTAssessment\\Assessment\\Assessment.csproj": {}
   },
   "projects": {
-    "D:\\Koswell Inhouse Products\\DVTAssessment\\Assessment\\Assessment.csproj": {
+    "d:\\Koswell Inhouse Products\\DVTAssessment\\Assessment\\Assessment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Koswell Inhouse Products\\DVTAssessment\\Assessment\\Assessment.csproj",
+        "projectUniqueName": "d:\\Koswell Inhouse Products\\DVTAssessment\\Assessment\\Assessment.csproj",
         "projectName": "Assessment",
-        "projectPath": "D:\\Koswell Inhouse Products\\DVTAssessment\\Assessment\\Assessment.csproj",
+        "projectPath": "d:\\Koswell Inhouse Products\\DVTAssessment\\Assessment\\Assessment.csproj",
         "packagesPath": "C:\\Users\\gnyat\\.nuget\\packages\\",
-        "outputPath": "D:\\Koswell Inhouse Products\\DVTAssessment\\Assessment\\obj\\",
+        "outputPath": "d:\\Koswell Inhouse Products\\DVTAssessment\\Assessment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gnyat\\AppData\\Roaming\\NuGet\\NuGet.Config",
