@@ -1,2 +1,23 @@
-Assessment/obj/Debug/net8.0/Assessment.AssemblyInfoInputs.cache
-Assessment/obj/Debug/net8.0/Assessment.AssemblyInfo.cs
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.csproj.user
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+
+# Auto-generated files
+*.log
+*.tlog
+*.lastbuildstate
+
+# Azure
+.vscode/settings.json
